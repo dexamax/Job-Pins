@@ -1,0 +1,120 @@
+.headText{
+    width: 250px;
+    height: 40px;
+    background-color: #0056b3;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.cyberCashText{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 55px;
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.descriptionBox{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #007bff;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.PostTextBox{
+    width: 250px;
+    height: 50px;
+    background-color: #4d94ff;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.postText01{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 55px;
+    color: white;
+    font-size: 25px;
+
+}
+
+.btnRed{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    background-color: #DC143C;
+    color: white;
+   
+}
+
+.btnGreen{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.postRedBtn{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgb(63, 63, 255);
+    color: white;
+}
+
+.postGreenBtn{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgb(255, 8, 193);
+    color: white;
+}
+
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.topic{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    p{
+        font-size: 18px;
+    }
+
+    .img{
+        width: 300px;
+        height: 300px;
+    }
+}
